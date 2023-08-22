@@ -1,13 +1,6 @@
 @font-face {
-  font-family: "Pacifico";
-  src: local("Pacifico"), url("./Pacifico-Regular.woff2") format("woff2");
-  font-weight: 400;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Pacifico2";
-  src: local("Pacifico2"), url("./Pacifico-Regular.woff2") format("woff2");
+  font-family: "Roboto";
+  src: local("Roboto"), url("./Roboto-Bold.woff2") format("woff2");
   font-weight: 700;
   font-style: normal;
 }
