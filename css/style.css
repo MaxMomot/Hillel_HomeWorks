@@ -58,14 +58,18 @@ section {
   background-color: #fc8f8f;
   color: #ffffff;
   text-align: center;
-  margin-left: 24px;
 }
 
 .float-left {
   float: left;
   box-sizing: border-box;
   padding: 10px;
-  margin-right: 20px;
+  margin-left: 20px;
+}
+.float-left2 {
+  float: left;
+  box-sizing: border-box;
+  padding: 10px;
 }
 
 .float-right {
@@ -73,4 +77,9 @@ section {
   box-sizing: border-box;
   padding: 10px;
   margin-left: 20px;
+}
+
+.right-float {
+  float: right;
+  box-sizing: border-box;
 }
