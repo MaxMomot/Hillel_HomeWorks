@@ -20,8 +20,8 @@ a {
   color: inherit;
   text-decoration: none;
 }
-/* 
-img {
+
+/* img {
   display: block;
   max-width: 100%;
 } */
@@ -32,10 +32,12 @@ html {
   line-height: 1.2;
   font-weight: 400;
   color: var(--text-color);
+  max-width: 100%;
 }
 
 .container {
   background-color: #34547a;
+  padding-top: 100px;
   display: inline-block;
   width: 1920px;
   height: 250px;
@@ -61,6 +63,7 @@ html {
   margin-left: 400px;
   margin-right: auto;
   padding-top: 19px;
+  max-width: 100%;
 }
 
 .color {
@@ -107,6 +110,7 @@ html {
   padding-bottom: calc(var(--basic-space) * 10.5);
   width: 1920px;
   height: 700px;
+  max-width: 100%;
 }
 
 .first-title {
@@ -120,6 +124,7 @@ html {
   font-weight: 400;
   margin-left: 400px;
   margin-bottom: 60px;
+  max-width: 100%;
 }
 
 .second-title {
@@ -133,6 +138,7 @@ html {
   font-weight: 400;
   margin-left: 690px;
   margin-top: 50px;
+  max-width: 100%;
 }
 
 .main-title {
@@ -142,6 +148,7 @@ html {
   font-weight: 500;
   margin-left: 400px;
   margin-bottom: 60px;
+  max-width: 100%;
 }
 
 /*--------------------------------------------------------------------------*/
@@ -153,6 +160,7 @@ html {
 }
 
 .section2 {
+  max-width: 100%;
   margin-top: 112px;
   text-align: center;
   color: #000000;
