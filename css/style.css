@@ -11,10 +11,13 @@
 }
 
 * {
-  text-decoration: none;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
 }
 
 .header {
@@ -68,6 +71,7 @@ html {
   height: 50px;
 }
 button {
+  text-decoration: none;
   background-color: #34547a;
   width: 225px;
   height: 65px;
@@ -84,6 +88,7 @@ button {
   margin-left: auto;
   margin-right: auto;
   padding-top: 19px;
+  margin-bottom: 60px;
 }
 
 .color {
@@ -142,15 +147,13 @@ button {
   max-width: calc(var(--container-width) + var(--basic-space) * 2);
   margin-left: auto;
   margin-right: auto;
+  color: #727272;
 }
 
 .second-title {
   color: #727272;
   width: 540px;
-  height: 67px;
-  /* top: 362px;
-  left: 400px; */
-  font-family: "Roboto", sans-serif;
+
   font-size: 16px;
   line-height: 26.25px;
   font-weight: 400;
@@ -158,10 +161,10 @@ button {
   margin-right: auto;
   margin-top: 50px;
   max-width: 100%;
+  margin-bottom: 57px;
 }
 
 .main-title {
-  font-family: "Roboto", sans-serif;
   font-size: 3rem;
   line-height: 1.2;
   font-weight: 500;
@@ -216,17 +219,20 @@ button {
   padding-bottom: calc(var(--basic-space) * 5);
 }
 .card {
-  display: inline-flex;
-  flex-direction: row;
-  padding: calc(var(--basic-space) * 1.5);
-  align-items: center;
-
-  padding: calc(var(--basic-space) * 1.5);
+  width: 100%;
+  display: inline-block;
+  max-width: 182px;
+  text-align: left;
 }
 .features .card + .card {
   margin-left: calc(var(--basic-space) * 4.25);
 }
 
+img {
+  float: left;
+  padding-left: 15px;
+  margin-right: 18px;
+}
 /*--------------------------------------------------------------------------*/
 
 .footer {
