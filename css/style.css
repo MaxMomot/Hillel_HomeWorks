@@ -20,15 +20,21 @@ a {
   text-decoration: none;
 }
 
+body {
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
 img {
   display: block;
   max-width: 100%;
 }
 
 html {
-  font-family: "Lato", sans-serif;
+  font-family: "Pacifico", sans-serif;
   font-size: var(--text-size);
-  line-height: 1.2;
+  line-height: 1.5;
   font-weight: 400;
   color: var(--text-color);
 }
@@ -159,4 +165,9 @@ html {
 }
 .social-link + .social-link {
   margin-left: calc(var(--basic-space));
+}
+
+.py-rem {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
