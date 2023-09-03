@@ -105,19 +105,43 @@ html {
   position: relative;
   text-align: center;
 }
+
 .container3 {
+  display: flex;
+  text-align: center;
   border: 1px solid;
   color: #000000;
+  border-radius: 30px;
+  width: 472px;
+  height: 32px;
+  margin-bottom: 100px;
+}
+
+.container4 {
+  text-align: center;
+  border: 1px solid;
+  color: #000000;
+  border-radius: 30px;
+  width: 240px;
+  height: 30px;
+}
+.container5 {
+  text-align: center;
+  border: 1px solid;
+  color: #000000;
+  border-radius: 30px;
+  width: 240px;
+  height: 30px;
 }
 
 .container2 img {
   margin-top: 20px;
-  margin-left: 173px;
+  margin-left: 187px;
   float: left;
-  margin-right: -149px;
+  margin-right: -157px;
 }
 
-.container3 img {
-  width: 100px;
-  margin-right: 10px;
+.social {
+  color: #000000;
+  margin-top: 20px;
 }
