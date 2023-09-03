@@ -9,6 +9,14 @@
   --text-size: 16px;
 }
 
+html {
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  line-height: 1.2;
+  font-weight: 400;
+  color: var(--text-color);
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -16,7 +24,7 @@
 }
 
 body {
-  background: #ccc url(../image/natur.jpg) no-repeat center/cover;
+  background: #ccc url(../image/bg.png) no-repeat center/cover;
   color: #fff;
   /* width: 100vw; */
   height: 100vh;
@@ -87,14 +95,6 @@ img {
   max-width: 100%;
 }
 
-html {
-  font-family: "Lato", sans-serif;
-  font-size: var(--text-size);
-  line-height: 1.2;
-  font-weight: 400;
-  color: var(--text-color);
-}
-
 .container {
   width: 100%;
   max-width: calc(var(--container-width) + var(--basic-space) * 2);
@@ -114,7 +114,7 @@ html {
   border-radius: 30px;
   width: 472px;
   height: 32px;
-  margin-bottom: 100px;
+  margin-bottom: 75px;
 }
 
 .container4 {
