@@ -76,7 +76,7 @@ h1 {
   text-align: center;
 }
 button {
-  background: rgb(10, 180, 10);
+  background: #153416;
   margin-top: 15px;
   color: #ffffff;
   width: 340px;
@@ -110,31 +110,34 @@ img {
 }
 
 .container3 {
+  margin-left: 78px;
   display: flex;
   text-align: center;
   border: 1px solid;
-  color: #000000;
+  color: #153416;
   border-radius: 30px;
-  width: 472px;
-  height: 32px;
+  width: 340px;
+  height: 36px;
   margin-bottom: 75px;
 }
 
 .container4 {
   text-align: center;
-  border: 1px solid;
-  color: #000000;
+
+  color: #ffffff;
   border-radius: 30px;
   width: 240px;
-  height: 30px;
+  padding-top: 6px;
+  height: 34px;
 }
 .container5 {
   text-align: center;
-  border: 1px solid;
-  color: #000000;
+
+  color: #ffffff;
   border-radius: 30px;
-  width: 240px;
-  height: 30px;
+  width: 237px;
+  height: 35px;
+  padding-top: 7px;
 }
 
 .container2 img {
