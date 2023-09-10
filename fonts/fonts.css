@@ -25,3 +25,9 @@
   font-weight: 500;
   font-style: normal;
 }
+@font-face {
+  font-family: "Roboto";
+  src: local("Roboto"), url("./Roboto-Regular.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+}

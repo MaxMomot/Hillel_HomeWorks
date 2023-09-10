@@ -1,5 +1,5 @@
 :root {
-  --container-width: 1110px;
+  --container-width: 1440px;
   --basic-space: 1rem;
   --basic-color: #d52047;
   --secondary-color: #62bfad;
@@ -26,7 +26,7 @@ a {
 }
 
 html {
-  font-family: "Pacifico", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: var(--text-size);
   line-height: 1.5;
   font-weight: 400;
@@ -38,9 +38,14 @@ body {
   grid-template-rows: auto 1fr auto;
 }
 
-img {
+/* img {
   display: inline;
   max-width: 100%;
+} */
+
+.header {
+  height: 80px;
+  background-color: #81a36b;
 }
 
 .container {
@@ -52,7 +57,7 @@ img {
   padding-right: var(--basic-space);
   position: relative;
 }
-
+/* 
 .footer {
   position: fixed;
   bottom: 0;
@@ -65,7 +70,7 @@ img {
 .footer p {
   margin: 0;
   text-align: left;
-}
+} */
 /*--------------------------------------------------------------------------*/
 
 /* .header {
