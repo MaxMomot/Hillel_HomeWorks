@@ -15,6 +15,13 @@
 @font-face {
   font-family: "Vetrino";
   src: local("Vetrino"), url("./Vetrino-Regular.woff2") format("woff2");
-  font-weight: 700;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Montestar";
+  src: local("Montestar"), url("./Montserrat-Medium.woff2") format("woff2");
+  font-weight: 500;
   font-style: normal;
 }
