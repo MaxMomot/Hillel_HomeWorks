@@ -162,9 +162,9 @@ p {
   display: flex;
   text-align: center;
   justify-content: end;
-
   background-color: #81a36b;
-  padding-top: 60px;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 
 footer .center-line {
