@@ -38,6 +38,7 @@ body {
 img {
   display: inline;
   max-width: 100%;
+  margin-bottom: 20px;
 }
 .py-rem {
   padding-top: 1rem;
@@ -45,8 +46,6 @@ img {
 }
 
 .header {
-  max-width: 1440px;
-  height: 80px;
   background-color: #81a36b;
 }
 
@@ -77,7 +76,7 @@ img {
 h2,
 h1,
 h3 {
-  font-family: "Vertino";
+  font-family: "Vetrino";
   font-size: 36px;
   line-height: 38.74px;
   font-weight: 400;
@@ -94,7 +93,6 @@ h1 {
 }
 
 p {
-  font-family: "Roboto";
   font-size: 18px;
 }
 
@@ -105,8 +103,10 @@ p {
 
 .main {
   background-color: #d8d8d6;
-  max-width: 1440px;
-  padding-bottom: 60px;
+  padding-bottom: 120px;
+}
+.main .pt120 {
+  padding-top: 120px;
 }
 
 .card {
@@ -123,7 +123,7 @@ p {
   display: flex;
   align-items: center;
   text-align: center;
-  padding-bottom: 120px;
+
   flex-direction: row-reverse;
 }
 
@@ -133,10 +133,6 @@ p {
   width: 350px;
   height: 510px;
 }
-/* .card-foot {
-  background-color: #81a36b;
-  text-align: center;
-} */
 
 .card-footer img {
   margin: 15px;
@@ -146,7 +142,7 @@ p {
 
 .section-card {
   background-color: #d8d8d6;
-  max-width: 1440px;
+
   text-align: center;
   padding-bottom: 120px;
 }
@@ -164,9 +160,9 @@ p {
 }
 .center-line {
   display: flex;
-  max-width: 1440px;
+  text-align: center;
   justify-content: end;
-  height: 282px;
+
   background-color: #81a36b;
   padding-top: 60px;
 }
@@ -182,7 +178,6 @@ footer .center-line {
 
 footer {
   background-color: #81a36b;
-  max-width: 1440px;
 }
 .foote p {
   font-family: "Montserrat";
@@ -226,120 +221,3 @@ footer .card-foot img {
 .card-foot p {
   margin-bottom: 20px;
 }
-/*--------------------------------------------------------------------------*/
-
-/* .header {
-  background-color: var(--basic-background);
-  padding-top: calc(var(--basic-space) * 1.5);
-  padding-bottom: calc(var(--basic-space) * 1.5);
-}
-
-.logo {
-  font-family: "Courgette", cursive;
-  font-size: 2rem;
-  line-height: 1.25;
-  font-weight: 400;
-  margin-right: 80px;
-}
-.logo .color {
-  color: var(--secondary-color);
-}
-
-.nav {
-  display: inline-block;
-  position: relative;
-  bottom: 5px;
-}
-.nav-link + .nav-link {
-  margin-left: 20px;
-} */
-
-/*--------------------------------------------------------------------------*/
-
-/* .first-section {
-  background-color: var(--basic-color);
-  color: #ffffff;
-  padding-top: calc(var(--basic-space) * 12.5);
-  padding-bottom: calc(var(--basic-space) * 10.5);
-}
-
-.main-title {
-  font-family: "Limelight", sans-serif;
-  font-size: 3rem;
-  line-height: 1.2;
-  font-weight: 400;
-  max-width: 738px;
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  text-transform: uppercase;
-} */
-
-/*--------------------------------------------------------------------------*/
-/* 
-.about {
-  background-color: var(--secondary-background);
-  padding-top: calc(var(--basic-space) * 6);
-  padding-bottom: calc(var(--basic-space) * 5);
-}
-
-.section-title {
-  font-weight: 700;
-  font-size: 3rem;
-  line-height: 1.2;
-  color: var(--basic-color);
-  margin-bottom: 40px;
-}
-
-.medium-title {
-  font-size: 2rem;
-  font-weight: 700;
-  margin-bottom: calc(var(--basic-space) * 1.5);
-}
-.text-wrap {
-  background-color: #e5e5e5;
-  width: 100%;
-  max-width: 50%;
-  border-radius: 8px 0px 0px 8px;
-  padding: calc(var(--basic-space) * 1.5);
-  float: left;
-}
-.text-wrap .description {
-  font-size: 1.5rem;
-  line-height: 1.245;
-} */
-
-/*--------------------------------------------------------------------------*/
-
-/* .features {
-  padding-top: calc(var(--basic-space) * 5);
-  padding-bottom: calc(var(--basic-space) * 5);
-}
-.features .card {
-  display: inline-block;
-  max-width: 322px;
-  border: 2px solid #e5e5e5;
-  border-radius: 0.5rem;
-  padding: calc(var(--basic-space) * 1.5);
-}
-.features .card + .card {
-  margin-left: calc(var(--basic-space) * 4.25);
-} */
-
-/*--------------------------------------------------------------------------*/
-
-/* .footer {
-  background-color: #f9f7e8;
-  padding-top: calc(var(--basic-space) * 2);
-  padding-bottom: calc(var(--basic-space) * 2);
-  text-align: center;
-}
-.copy {
-  margin-bottom: calc(var(--basic-space) * 1.5);
-}
-.social-link img {
-  display: inline;
-}
-.social-link + .social-link {
-  margin-left: calc(var(--basic-space));
-} */
