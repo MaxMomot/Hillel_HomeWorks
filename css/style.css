@@ -23,7 +23,7 @@ html {
   line-height: 1.5;
   font-weight: 400;
   color: var(--text-color);
-  background-color: #e6e3de;
+  background-color: #f2f1ef;
 }
 header {
   text-align: center;
@@ -158,13 +158,12 @@ button {
 
 .card {
   display: flex;
-  max-width: 612px;
+  max-width: 1060px;
   gap: 127px;
 }
 
 .small-card p {
   color: #e94d35;
-
   font-size: 12px;
   font-weight: 400;
   line-height: 16px;
@@ -239,7 +238,7 @@ button {
 .contein-awards {
   max-width: 1060px;
   display: flex;
-  border: 1px solid #000000;
+
   align-items: center;
   justify-content: space-between;
 }
@@ -252,14 +251,16 @@ button {
   background-color: #e94d35;
   text-align: center;
   margin: 36px 41px;
-  padding-top: 11px;
+  line-height: 2.6;
 }
 .number2 {
   color: #fff;
   width: 181px;
-  text-transform: uppercase;
+  padding-left: 13px;
   background-color: #e94d35;
-  text-align: center;
+  text-transform: uppercase;
+  display: inline-block;
+  line-height: 2.5;
 }
 
 .left {
@@ -270,7 +271,14 @@ button {
 .left-port {
   flex-grow: 1;
   text-align: initial;
+  margin-left: 40px;
 }
+.right-port {
+  flex-grow: 1;
+  text-align: initial;
+  margin-right: 40px;
+}
+
 .margine {
   margin-top: 9px;
   margin-bottom: 60px;
@@ -278,6 +286,7 @@ button {
 
 .botton {
   margin-bottom: 24px;
+  border: 1px solid;
 }
 
 .portfolio {
@@ -289,6 +298,155 @@ button {
   text-align: left;
 }
 
-.right {
-  margin-right: 40px;
+.revers {
+  flex-direction: row-reverse;
+}
+
+/* ---------------------------------------------- */
+.hight {
+  background-color: #e6e3de;
+}
+
+.hight-up {
+  max-width: 1170px;
+  display: flex;
+  line-height: 7;
+}
+input[type="text"],
+textarea {
+  padding: 10px;
+}
+input[type="text"] {
+  width: 354px;
+  background: bottom;
+  max-height: 54px;
+  margin-top: 32px;
+  border: 1px solid;
+}
+#address {
+  height: 100px;
+}
+
+.suport {
+  max-height: 54px;
+  line-height: 52px;
+  font-size: 23px;
+  margin-top: 32px;
+  padding-left: 15px;
+}
+
+/*  ----------------------------*/
+
+.down {
+  max-width: 1060px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  line-height: 6;
+  color: #ffffff;
+  padding-top: 36px;
+  background-color: #161513;
+}
+
+.first-line {
+  display: contents;
+  margin-bottom: 48px;
+  max-width: 1060px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+.second-line {
+  display: contents;
+  max-width: 1060px;
+}
+
+footer a {
+  text-decoration: none;
+  color: #e6e3de;
+  margin-left: 46px;
+}
+
+footer svg {
+  margin-right: 60px;
+  grid-column-start: -3;
+}
+
+.some-grid {
+  grid-column-start: 10;
+}
+
+.left {
+  margin-right: -10px;
+}
+
+footer {
+  background-color: #161513;
+  margin-top: 120px;
+}
+
+.image {
+  grid-column-start: 10;
+  border: 1px solid #969186;
+  border-radius: 22px;
+  max-width: 40px;
+  max-height: 40px;
+}
+/* -------------------------------------- */
+
+.card2 {
+  border: 1px solid;
+  max-width: 612px;
+  text-align: left;
+  padding: 25px;
+}
+
+.card-grid {
+  max-width: 1040px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+
+.card-grid h2 {
+  margin-bottom: 25px;
+  font-size: 31px;
+  font-weight: 400;
+  line-height: 40px;
+}
+
+/* -------------------------------------- */
+.card3 {
+  border: 1px solid;
+  width: 241px;
+  line-height: 4;
+  text-align: center;
+}
+
+.card-grid2 {
+  max-width: 1040px;
+  display: grid;
+  margin-top: 50px;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+.text-cont3 {
+  font-size: 16px;
+  line-height: 24px;
+}
+.text-cont4 {
+  font-size: 23px;
+  line-height: 32px;
+}
+
+.butt {
+  background-color: #161513;
+  color: #fff;
+  max-width: 1060px;
+  text-align: center;
+  line-height: 3;
+}
+
+.mar-bot {
+  margin-bottom: 70px;
 }
