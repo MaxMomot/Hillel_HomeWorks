@@ -53,16 +53,20 @@ html {
   justify-content: flex-end;
 }
 
+input[type="radio"] {
+  opacity: 0;
+  display: none;
+}
+
+input[type="radio"]:checked + span {
+  background-color: #f0145a;
+  color: #ededf7;
+}
+
 .lang-butt {
-  border: none;
   padding: 10px 20px;
   border-radius: 11px;
-  cursor: pointer;
-  color: #b3b3ba;
-  background: bottom;
-  font-size: 12px;
   font-weight: 700;
-  line-height: 7px;
   text-align: center;
   width: 53px;
   height: 30px;
@@ -115,6 +119,8 @@ footer a {
 
 nav a:hover {
   color: #f0145a;
+  text-decoration: underline;
+  text-underline-offset: 3px;
 }
 
 .wrapper.grid {
@@ -169,6 +175,7 @@ nav a:hover {
   border-radius: 5px;
   margin-bottom: 60px;
   position: relative;
+  padding: 0 14px;
 }
 .card-width {
   max-width: 1600px;
@@ -183,9 +190,11 @@ nav a:hover {
 }
 
 .card-img {
-  width: 493px;
+  width: 100%;
   height: 400px;
-  border-radius: 10px;
+  border-radius: 30px;
+  max-width: 100%;
+  object-fit: cover;
 }
 
 .arrow-link {
@@ -272,5 +281,216 @@ footer {
   padding-bottom: 30px;
 }
 /*--------------------------------------------------------------------------*/
+
+@media (max-width: 1320px) {
+  .responsive-image {
+    max-width: 100%;
+  }
+  .m-width {
+    max-width: 1320px;
+  }
+  .content {
+    max-width: 1320px;
+    margin: 0 8rem;
+  }
+  .wrapper {
+    max-width: 1320px;
+    margin: 0 3rem;
+    margin-top: 60px;
+    grid-template-columns: 1fr 576px;
+  }
+  .card-width {
+    max-width: 1320px;
+    padding: 2rem;
+  }
+  .card {
+    width: 400px;
+    height: 100%;
+  }
+  .arrow-link {
+    position: absolute;
+    bottom: 72px;
+    right: 11px;
+  }
+  .m-width {
+    max-width: 1320px;
+  }
+  .footer {
+    margin: 0 3rem;
+  }
+}
+
+/*--------------------------------------------------------------------------*/
+
+@media (max-width: 1024px) {
+  .responsive-image {
+    max-width: 100%;
+  }
+  .m-width {
+    max-width: 1024px;
+  }
+  .content {
+    max-width: 1024px;
+  }
+  .wrapper {
+    max-width: 1024px;
+    margin: 0 3rem;
+    margin-top: 60px;
+    grid-template-columns: 1fr 576px;
+  }
+  .card-width {
+    max-width: 1024px;
+    padding: 2rem;
+  }
+  .card {
+    width: 275px;
+  }
+  .arrow-link {
+    position: absolute;
+    bottom: 72px;
+    right: 11px;
+  }
+  .m-width {
+    max-width: 1024px;
+  }
+  .lang-butt {
+    padding: 5px 9px;
+  }
+}
+
+/*--------------------------------------------------------------------------*/
+
+@media (max-width: 768px) {
+  .responsive-image {
+    max-width: 100%;
+  }
+  .m-width {
+    max-width: 768px;
+  }
+  .wrapper {
+    display: flex;
+    grid: none;
+    flex-direction: column;
+  }
+  .heder-dots {
+    justify-content: left;
+  }
+  .box-1 {
+    order: 2;
+    height: 60px;
+    width: 254px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+  }
+  .box-3 {
+    order: 2;
+  }
+  .flex-end {
+    display: block;
+  }
+
+  .card-width {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .footer {
+    display: flex;
+    grid: none;
+    flex-direction: column;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .bo-3 {
+    order: 2;
+    display: flex;
+  }
+  .bo-2 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
+
+/*--------------------------------------------------------------------------*/
+
+@media (max-width: 375px) {
+  .responsive-image {
+    max-width: 100%;
+  }
+  .m-width {
+    max-width: 375px;
+  }
+  .lang-butt {
+    font-size: 12px;
+  }
+  .hidden {
+    display: none;
+  }
+  .card {
+    width: 300px;
+  }
+
+  .heder-dots {
+    background-color: #f5f5fa;
+    padding: 10px;
+  }
+  .wrapper {
+    display: flex;
+    grid: none;
+    flex-direction: column;
+    max-width: 375px;
+    margin: 0;
+    padding: 0;
+  }
+  .textdot {
+    padding-left: 108px;
+    margin-bottom: 0;
+  }
+  .content {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 37px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 0 2rem;
+  }
+  .heder-dots {
+    justify-content: left;
+  }
+  .box-1 {
+    order: 2;
+    height: 60px;
+    width: 254px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    padding-left: 1rem;
+  }
+  .box-3 {
+    display: none;
+  }
+  .card-img {
+    height: 300px;
+    border-radius: 30px;
+  }
+  .card-width {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .footer {
+    display: flex;
+    grid: none;
+    flex-direction: column;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .bo-3 {
+    order: 2;
+    display: flex;
+  }
+  .bo-2 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
+
 /*--------------------------------------------------------------------------*/
 /*--------------------------------------------------------------------------*/
