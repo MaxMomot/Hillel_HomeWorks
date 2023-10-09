@@ -64,12 +64,16 @@ input[type="radio"]:checked + span {
 }
 
 .lang-butt {
-  padding: 10px 20px;
+  padding: 5px 6px;
   border-radius: 11px;
   font-weight: 700;
   text-align: center;
   width: 53px;
   height: 30px;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 1px;
+  text-align: center;
 }
 
 .lang-butt:hover {
@@ -91,6 +95,14 @@ input[type="radio"]:checked + span {
   height: 6px;
   border-radius: 50%;
   background-color: #e6e6f0;
+  display: inline-block;
+  margin: 3px 3px;
+}
+.dots2 {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: #b3b3ba;
   display: inline-block;
   margin: 3px 3px;
 }
@@ -119,7 +131,7 @@ footer a {
 
 nav a:hover {
   color: #f0145a;
-  text-decoration: underline;
+  text-decoration: 2px underline;
   text-underline-offset: 3px;
 }
 
@@ -169,8 +181,7 @@ nav a:hover {
 }
 
 .card {
-  width: 510px;
-  height: 462px;
+  gap: 1px;
   align-items: center;
   border-radius: 5px;
   margin-bottom: 60px;
@@ -178,6 +189,7 @@ nav a:hover {
   padding: 0 14px;
 }
 .card-width {
+  gap: 16px;
   max-width: 1600px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -211,6 +223,7 @@ nav a:hover {
   bottom: 19px;
   right: 18px;
 }
+
 .description {
   color: #b3b3ba;
   font-size: 14px;
